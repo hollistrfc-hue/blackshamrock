@@ -277,6 +277,19 @@ p  { color: var(--text); line-height: 1.8; }
   color: var(--muted);
 }
 
+@media (min-width: 768px) {
+  .hero-tagline {
+    flex-direction: row;
+    gap: 0;
+    white-space: nowrap;
+  }
+
+  .hero-tagline span:not(:last-child)::after {
+    content: "\00a0\00a0·\00a0\00a0";
+    letter-spacing: 0;
+  }
+}
+
 .hero-intro {
   max-width: 580px;
   font-size: 0.95rem;
