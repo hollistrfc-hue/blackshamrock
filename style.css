@@ -371,11 +371,13 @@ p  { color: var(--text); line-height: 1.8; }
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.25rem;
+  align-items: stretch;
 }
 
 @media (min-width: 768px) { .artists-full-grid { grid-template-columns: repeat(2, 1fr); } }
 
 .artist-card {
+  align-self: stretch;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -393,7 +395,9 @@ p  { color: var(--text); line-height: 1.8; }
 
 .artist-avatar-lg img {
   width: 100%;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
+  object-position: center top;
   display: block;
 }
 
