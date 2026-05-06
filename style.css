@@ -393,7 +393,9 @@ p  { color: var(--text); line-height: 1.8; }
 
 .artist-avatar-lg img {
   width: 100%;
-  height: auto;
+  height: 320px;
+  object-fit: cover;
+  object-position: center top;
   display: block;
 }
 
