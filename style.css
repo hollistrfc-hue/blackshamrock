@@ -386,7 +386,7 @@ p  { color: var(--text); line-height: 1.8; }
 
 /* PHOTO PLACEHOLDER */
 .artist-avatar-lg {
-  height: 240px;
+  height: 320px;
   background: #141414;
   border-bottom: 1px solid var(--border);
   display: flex;
