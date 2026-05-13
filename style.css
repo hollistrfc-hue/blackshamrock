@@ -108,9 +108,9 @@ p  { color: var(--text); line-height: 1.8; }
   text-decoration: none;
 }
 
-.logo-img         { height: 68px; width: auto; display: block; }
-.logo-img--hero   { height: 160px; }
-.logo-img--footer { height: 80px; }
+.logo-img         { height: 88px; width: auto; display: block; }
+.logo-img--hero   { height: 200px; }
+.logo-img--footer { height: 104px; }
 
 .logo-text     { display: flex; flex-direction: column; line-height: 1.15; }
 
