@@ -108,6 +108,10 @@ p  { color: var(--text); line-height: 1.8; }
   text-decoration: none;
 }
 
+.logo-img         { height: 48px; width: auto; display: block; }
+.logo-img--hero   { height: 120px; }
+.logo-img--footer { height: 56px; }
+
 .logo-text     { display: flex; flex-direction: column; line-height: 1.15; }
 
 .logo-black {
