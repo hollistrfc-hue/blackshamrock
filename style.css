@@ -109,7 +109,7 @@ p  { color: var(--text); line-height: 1.8; }
 }
 
 .logo-img         { height: 140px; width: auto; display: block; }
-.logo-img--hero   { height: 520px; width: auto; max-width: 90vw; }
+.logo-img--hero   { height: 240px; width: auto; max-width: 85vw; }
 .logo-img--footer { height: 125px; }
 
 .logo-text     { display: flex; flex-direction: column; line-height: 1.15; }
@@ -240,7 +240,7 @@ p  { color: var(--text); line-height: 1.8; }
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 1rem 1.5rem 2rem;
+  padding: 4rem 1.5rem 5rem;
   position: relative;
 }
 
@@ -256,8 +256,8 @@ p  { color: var(--text); line-height: 1.8; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0;
-  margin-bottom: 0;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .hero-logo-wrap .logo-icon { width: 60px; height: 74px; }
@@ -271,7 +271,7 @@ p  { color: var(--text); line-height: 1.8; }
   flex-direction: column;
   align-items: center;
   gap: 6px;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .hero-tagline span {
