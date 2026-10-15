@@ -64,6 +64,9 @@
           contactForm.style.display = 'none';
           thankYou.classList.add('visible');
           window.scrollTo({ top: thankYou.getBoundingClientRect().top + window.scrollY - 120, behavior: 'smooth' });
+          if (typeof gtag === 'function') {
+            gtag('event', 'generate_lead', { form_name: 'booking' });
+          }
         })
         .catch(function () {
           contactForm.submit(); // fallback: full-page POST
